@@ -9,22 +9,22 @@ the schedule, the team and league history, and advance through the season.
 # Features
 - User picks a team & the code generates a roster that will be altered over the years based on user input
 - Menu for viewing roster, schedule, league history, and to advance
-## - Regular season:
+## Regular season:
   - 17 simulated games based on team overall and other factors against other teams in the NFL
-## - Playoffs:
+## Playoffs:
 - Qualify if team won 10 or more games or 9 wins + 1 tie
 - If the team meets the requirements to gain a bye week they only have to win 3 games to win the Super Bowl
 - If not they must win 4 games
-## - Attribute changes:
+## Attribute changes:
 - Resets game values
 - Retires players at a certain age
 - Player skills increase or decrease based on potential and age 
-## - Contract negotiations:
+## Contract negotiations:
 - User has the option to retain a player on the team or not
-## - Draft:
+## Draft:
 - Runs if roster spot is open
 - Project displays 10 players of the same position and young age for user to choose one
-## - Free agency:
+## Free agency:
 - Runs if roster spots are open after draft
 - The "owner" picks random players to fill in the open positions
 
