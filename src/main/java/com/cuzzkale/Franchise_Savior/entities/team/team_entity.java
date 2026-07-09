@@ -11,10 +11,6 @@ public class team_entity {
 
     private String name;
 
-    private String city;
-
-    private String imgPath;
-
     private double overall;
 
     private double offenseOVR;
@@ -63,22 +59,6 @@ public class team_entity {
         this.name = name;
     }
 
-    public String getCity() {
-        return city;
-    }
-
-    public void setCity(String city) {
-        this.city = city;
-    }
-
-    public String getImgPath() {
-        return imgPath;
-    }
-
-    public void setImgPath(String imgPath) {
-        this.imgPath = imgPath;
-    }
-
     public double getOverall() {
         return overall;
     }
@@ -117,14 +97,6 @@ public class team_entity {
 
     public void setPrestige(double prestige) {
         this.prestige = prestige;
-    }
-
-    public int getInjuries() {
-        return injuries;
-    }
-
-    public void setInjuries(int injuries) {
-        this.injuries = injuries;
     }
 
     public int getCurrentWins() {
