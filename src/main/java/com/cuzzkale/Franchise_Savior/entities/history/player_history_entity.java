@@ -304,4 +304,12 @@ public class player_history_entity {
     public void setOpoty(boolean opoty) {
         this.opoty = opoty;
     }
+
+    public player_entity getPlayer() {
+        return player;
+    }
+
+    public void setPlayer(player_entity player) {
+        this.player = player;
+    }
 }

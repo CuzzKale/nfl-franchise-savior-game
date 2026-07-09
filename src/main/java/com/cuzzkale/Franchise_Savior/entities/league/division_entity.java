@@ -15,5 +15,27 @@ public class division_entity {
     @JoinColumn(name = "conference_id")
     private conference_entity conference;
 
+    public Long getId() {
+        return Id;
+    }
 
+    public void setId(Long id) {
+        Id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public conference_entity getConference() {
+        return conference;
+    }
+
+    public void setConference(conference_entity conference) {
+        this.conference = conference;
+    }
 }

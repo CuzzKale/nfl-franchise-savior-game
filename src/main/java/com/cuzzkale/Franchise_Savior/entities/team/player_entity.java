@@ -397,5 +397,4 @@ public class player_entity {
     public void setInDraftOwnerFav(boolean inDraftOwnerFav) {
         this.inDraftOwnerFav = inDraftOwnerFav;
     }
-
 }
